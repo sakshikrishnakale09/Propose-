@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love | Forever</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page4">
+    <!-- Music Toggle -->
+    <button class="music-toggle" onclick="toggleMusic()">
+        <i class="fas fa-volume-up"></i>
+    </button>
+    
+    <!-- Main Content -->
+    <div class="forever-content">
+        <h1>I Love You Sweetheart Forever</h1>
+        
+        <div class="gift-box" onclick="triggerAnimations()">
+            <div class="gift-lid"></div>
+            <div class="gift-body">
+                never ending journey
+            </div>
+            <p class="gift-hint">press the heart</p>
+        </div>
+        
+        <div class="memory-popup-container"></div>
+        <div class="petals-container"></div>
+        
+        <p class="forever-text">Forever💞</p>
+    </div>
+    
+    <!-- Navigation Arrow -->
+    <div class="nav-arrows">
+        <button onclick="navigateTo('memories.html')">←</button>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="assets/audio/page4.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
