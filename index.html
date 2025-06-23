@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love | Page 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page1">
+    <!-- Music Toggle -->
+    <button class="music-toggle" onclick="toggleMusic()">
+        <i class="fas fa-volume-up"></i>
+    </button>
+    
+    <!-- Floating Elements -->
+    <img src="assets/images/teddy1.png" class="teddy" alt="Teddy">
+    <img src="assets/images/teddy2.png" class="teddy" alt="Teddy">
+    <img src="assets/images/teddy3.png" class="teddy" alt="Teddy">
+    
+    <div class="heart" style="top:20%; left:20%;"></div>
+    <div class="heart" style="top:30%; right:25%;"></div>
+    <div class="heart" style="bottom:25%; left:30%;"></div>
+    
+    <!-- Main Content -->
+    <div class="center-content">
+        <h1>Our Journey Begins</h1>
+        <button class="start-button" onclick="navigateTo('love-letter.html')">
+            Let's journey begin
+        </button>
+        <p class="tap-hint">tap</p>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="assets/audio/page1.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
