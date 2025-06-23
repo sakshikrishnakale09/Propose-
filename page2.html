@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love | Memories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page3">
+    <!-- Music Toggle -->
+    <button class="music-toggle" onclick="toggleMusic()">
+        <i class="fas fa-volume-up"></i>
+    </button>
+    
+    <!-- Heart Photo Collage -->
+    <div class="heart-collage">
+        <!-- Images will be arranged in heart shape via CSS -->
+        <img src="assets/images/IMG_3728.jpg" alt="Memory">
+        <img src="assets/images/IMG_3682.jpg" alt="Memory">
+        <img src="assets/images/IMG_2265.jpg" alt="Memory">
+        <img src="assets/images/IMG_2259.jpg" alt="Memory">
+        <img src="assets/images/IMG_1840.jpg" alt="Memory">
+        <img src="assets/images/IMG_8587.jpg" alt="Memory">
+        <img src="assets/images/IMG_8843.jpg" alt="Memory">
+        <img src="assets/images/IMG_4085.jpg" alt="Memory">
+    </div>
+    
+    <!-- Navigation Arrows -->
+    <div class="nav-arrows">
+        <button onclick="navigateTo('love-letter.html')">←</button>
+        <button onclick="navigateTo('forever.html')">→</button>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="assets/audio/page3.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
